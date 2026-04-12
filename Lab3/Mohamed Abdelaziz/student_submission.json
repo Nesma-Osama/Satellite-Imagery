@@ -1,0 +1,360 @@
+{
+    "student_ids": [
+        "9220912",
+        "9220658"
+    ],
+    "trials": [
+        {
+            "hyperparams": {
+                "learning_rate": 0.001,
+                "batch_size": 16,
+                "optimizer": "Adam",
+                "epochs": 5
+            },
+            "accuracy": 0.82,
+            "F_score_class": {
+                "GREENERY": 0.75,
+                "SAND": 0.69,
+                "WATER": 0.66,
+                "CEMENT_INFRASTRUCTURE": 0.9
+            },
+            "observations": [
+                "Validation loss increased while training loss decreased."
+            ],
+            "conclusions": [
+                "A lower learning rate may be required.",
+                "Further regularization is recommended.",
+                "Data Augmentation"
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.001,
+                "batch_size": 16,
+                "optimizer": "Adam",
+                "epochs": 10
+            },
+            "accuracy": 0.84,
+            "F_score_class": {
+                "GREENERY": 0.75,
+                "SAND": 0.74,
+                "WATER": 0.72,
+                "CEMENT_INFRASTRUCTURE": 0.91
+            },
+            "observations": [
+                "Validation loss fluctuated"
+            ],
+            "conclusions": [
+                "A lower learning rate may be required.",
+                "Further regularization is recommended."
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.001,
+                "batch_size": 16,
+                "optimizer": "SGD",
+                "epochs": 5
+            },
+            "accuracy": 0.79,
+            "F_score_class": {
+                "GREENERY": 0.68,
+                "SAND": 0.64,
+                "WATER": 0.59,
+                "CEMENT_INFRASTRUCTURE": 0.88
+            },
+            "observations": [
+                "Training and Validation error decreased but f1 scores decreased also"
+            ],
+            "conclusions": [
+                "increase epochs"
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.001,
+                "batch_size": 16,
+                "optimizer": "SGD",
+                "epochs": 10
+            },
+            "accuracy": 0.79,
+            "F_score_class": {
+                "GREENERY": 0.71,
+                "SAND": 0.69,
+                "WATER": 0.58,
+                "CEMENT_INFRASTRUCTURE": 0.88
+            },
+            "observations": [
+                "Validation loss fluctuated"
+            ],
+            "conclusions": [
+                "A lower learning rate may be required.",
+                "Further regularization is recommended."
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.001,
+                "batch_size": 32,
+                "optimizer": "Adam",
+                "epochs": 5
+            },
+            "accuracy": 0.8,
+            "F_score_class": {
+                "GREENERY": 0.72,
+                "SAND": 0.65,
+                "WATER": 0.51,
+                "CEMENT_INFRASTRUCTURE": 0.89
+            },
+            "observations": [
+                "Validation loss increased while training loss decreased.",
+                "less than when batch size 16"
+            ],
+            "conclusions": [
+                "A lower learning rate may be required.",
+                "Further regularization is recommended.",
+                "Data Augmentation"
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.001,
+                "batch_size": 32,
+                "optimizer": "Adam",
+                "epochs": 10
+            },
+            "accuracy": 0.83,
+            "F_score_class": {
+                "GREENERY": 0.75,
+                "SAND": 0.72,
+                "WATER": 0.65,
+                "CEMENT_INFRASTRUCTURE": 0.91
+            },
+            "observations": [
+                "Validation loss fluctuated"
+            ],
+            "conclusions": [
+                "A lower learning rate may be required.",
+                "Further regularization is recommended."
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.001,
+                "batch_size": 32,
+                "optimizer": "SGD",
+                "epochs": 5
+            },
+            "accuracy": 0.76,
+            "F_score_class": {
+                "GREENERY": 0.65,
+                "SAND": 0.64,
+                "WATER": 0.52,
+                "CEMENT_INFRASTRUCTURE": 0.86
+            },
+            "observations": [
+                "Training and Validation error decreased but f1 scores decreased also"
+            ],
+            "conclusions": [
+                "increase epochs"
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.001,
+                "batch_size": 32,
+                "optimizer": "SGD",
+                "epochs": 10
+            },
+            "accuracy": 0.79,
+            "F_score_class": {
+                "GREENERY": 0.65,
+                "SAND": 0.65,
+                "WATER": 0.56,
+                "CEMENT_INFRASTRUCTURE": 0.88
+            },
+            "observations": [
+                "Validation loss fluctuated"
+            ],
+            "conclusions": [
+                "A lower learning rate may be required.",
+                "Further regularization is recommended."
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.0005,
+                "batch_size": 16,
+                "optimizer": "Adam",
+                "epochs": 5
+            },
+            "accuracy": 0.81,
+            "F_score_class": {
+                "GREENERY": 0.73,
+                "SAND": 0.71,
+                "WATER": 0.56,
+                "CEMENT_INFRASTRUCTURE": 0.89
+            },
+            "observations": [
+                "Validation loss increased while training loss decreased."
+            ],
+            "conclusions": [
+                "A lower learning rate may be required.",
+                "Further regularization is recommended.",
+                "Data Augmentation"
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.0005,
+                "batch_size": 16,
+                "optimizer": "Adam",
+                "epochs": 10
+            },
+            "accuracy": 0.83,
+            "F_score_class": {
+                "GREENERY": 0.78,
+                "SAND": 0.77,
+                "WATER": 0.6,
+                "CEMENT_INFRASTRUCTURE": 0.9
+            },
+            "observations": [
+                "Validation loss fluctuated"
+            ],
+            "conclusions": [
+                "A lower learning rate may be required.",
+                "Further regularization is recommended."
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.0005,
+                "batch_size": 16,
+                "optimizer": "SGD",
+                "epochs": 5
+            },
+            "accuracy": 0.74,
+            "F_score_class": {
+                "GREENERY": 0.55,
+                "SAND": 0.64,
+                "WATER": 0.56,
+                "CEMENT_INFRASTRUCTURE": 0.85
+            },
+            "observations": [
+                "Training and Validation error decreased but f1 scores decreased also"
+            ],
+            "conclusions": [
+                "increase epochs"
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.0005,
+                "batch_size": 16,
+                "optimizer": "SGD",
+                "epochs": 10
+            },
+            "accuracy": 0.8,
+            "F_score_class": {
+                "GREENERY": 0.7,
+                "SAND": 0.67,
+                "WATER": 0.56,
+                "CEMENT_INFRASTRUCTURE": 0.89
+            },
+            "observations": [
+                "Training and Validation error decreased"
+            ],
+            "conclusions": [
+                "may increase epoch improve accuracy and f1"
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.0005,
+                "batch_size": 32,
+                "optimizer": "Adam",
+                "epochs": 5
+            },
+            "accuracy": 0.82,
+            "F_score_class": {
+                "GREENERY": 0.7,
+                "SAND": 0.7,
+                "WATER": 0.76,
+                "CEMENT_INFRASTRUCTURE": 0.89
+            },
+            "observations": [
+                "Training and Validation error decreased",
+                "better then when 16 batch size"
+            ],
+            "conclusions": [
+                "may increase epoch improve accuracy and f1"
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.0005,
+                "batch_size": 32,
+                "optimizer": "Adam",
+                "epochs": 10
+            },
+            "accuracy": 0.83,
+            "F_score_class": {
+                "GREENERY": 0.75,
+                "SAND": 0.74,
+                "WATER": 0.69,
+                "CEMENT_INFRASTRUCTURE": 0.9
+            },
+            "observations": [
+                "Validation loss fluctuated"
+            ],
+            "conclusions": [
+                "A lower learning rate may be required.",
+                "Further regularization is recommended."
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.0005,
+                "batch_size": 32,
+                "optimizer": "SGD",
+                "epochs": 5
+            },
+            "accuracy": 0.69,
+            "F_score_class": {
+                "GREENERY": 0.53,
+                "SAND": 0.6,
+                "WATER": 0.07,
+                "CEMENT_INFRASTRUCTURE": 0.82
+            },
+            "observations": [
+                "training loss and validation loss is very hight",
+                "water class is very bad"
+            ],
+            "conclusions": [
+                "increase epochs"
+            ]
+        },
+        {
+            "hyperparams": {
+                "learning_rate": 0.0005,
+                "batch_size": 32,
+                "optimizer": "SGD",
+                "epochs": 10
+            },
+            "accuracy": 0.78,
+            "F_score_class": {
+                "GREENERY": 0.67,
+                "SAND": 0.65,
+                "WATER": 0.53,
+                "CEMENT_INFRASTRUCTURE": 0.87
+            },
+            "observations": [
+                "training loss and validation loss decreased"
+            ],
+            "conclusions": [
+                "increase epochs"
+            ]
+        }
+    ],
+    "micro_class_error_analysis": "The least accurate macro-class is WATER, with an F1-score of 0.7069. It is mainly confused with CEMENT_INFRASTRUCTURE and GREENERY. Micro-class analysis shows that harbor and river samples are sometimes misclassified due to proximity to urban areas and vegetation. Ship is the most challenging class, often predicted as CEMENT_INFRASTRUCTURE because of its man-made structure. Wetland is frequently confused with GREENERY due to the presence of vegetation mixed with water. Snowberg and sea_ice also show some confusion with infrastructure due to their bright appearance. Overall, errors occur بسبب mixed pixels, boundaries with other classes, and visual similarity between water-related and non-water structures."
+}
